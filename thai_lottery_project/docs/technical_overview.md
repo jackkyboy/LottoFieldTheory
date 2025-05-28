@@ -45,7 +45,6 @@ H = - \sum_{i} p_i \log_2 p_i
 โดยที่ \( p_i \) มาจาก histogram ของค่าในเวกเตอร์
 
 ฟังก์ชัน:  
-```python
 entropy_result = entropy_test_vs_random(field)
 ```
 
@@ -62,10 +61,7 @@ $$
 ฟังก์ชัน:
 
 ```
-python
 
-
-คัดลอกแก้ไข
 superposition = generate_schrodinger_superposition(state_ids, temperature=0.5, seed=42)
 ```
 
@@ -76,7 +72,6 @@ superposition = generate_schrodinger_superposition(state_ids, temperature=0.5, s
 เปรียบเสมือนการ "วัดสถานะควอนตัม" แล้วระบบยุบลงสู่ Draw เดียว
 
 ```
-python
 
 
 คัดลอกแก้ไข
@@ -86,10 +81,7 @@ collapsed_draw = simulate_wavefunction_collapse(superposition)
 เบื้องหลังคือ:
 
 ```
-python
 
-
-คัดลอกแก้ไข
 np.random.choice(draw_ids, p=probabilities)
 ```
 
@@ -102,10 +94,7 @@ np.random.choice(draw_ids, p=probabilities)
 ใช้ฟังก์ชัน:
 
 ```
-python
 
-
-คัดลอกแก้ไข
 weighted_sp = weight_superposition_with_context(superposition, context_vector, draw_metadata)
 ```
 
