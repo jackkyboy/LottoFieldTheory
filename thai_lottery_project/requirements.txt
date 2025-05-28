@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+stripe
+pandas
+jinja2
+python-multipart

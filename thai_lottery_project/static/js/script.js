@@ -1,0 +1,1 @@
+// JavaScript custom ถ้าต้องการ
